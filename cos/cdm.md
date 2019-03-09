@@ -5,7 +5,7 @@ PerkinElmer在去年9月份高调宣布ChemOffice Suite 2018的发布，其中Ch
 
 遗憾的是，目前网上尚无ChemDraw 18 for Mac破解版，而官网提供的试用版只提供10次试运行机会（*比17版少了10次emmm* ）。我通过一些反汇编手段强行改大了试运行次数，从而基本实现了无限次数试用（*20多亿次，即使每秒点一次也要68年……而且可以续回来*）。本文将和大家分享这个Mac版ChemDraw 18的破解程序，而Windows版本的ChemOffice Suite 18破解版可[点此](https://github.com/Z-H-Sun/CS_CCME_Posts/blob/master/cos/cow.md)访问。
 
-*本试用版需要每次点击“试用”。如果觉得麻烦，本文还提供更旧版本的ChemDraw破解版下载，见[旧版下载安装](/#旧版下载安装)一节，不过这样就无法使用新版本特性了。*
+*本试用版需要每次点击“试用”。如果觉得麻烦，本文还提供更旧版本的ChemDraw破解版下载，见[旧版下载安装](/cdm.md#旧版下载安装)一节，不过这样就无法使用新版本特性了。*
 
 ## 安装与运行
 * 先下载官方程序包[ChemDraw18.dmg](https://github.com/Z-H-Sun/CDM_18/releases/download/v1/ChemDraw18.dmg)文件，然后双击打开，完成验证过程，正常安装。破解之前一定先**不要运行主程序（重要！虽然有补救方法）**
