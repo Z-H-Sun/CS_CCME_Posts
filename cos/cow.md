@@ -14,7 +14,7 @@
 <p align="center"><img width="80%" height="80%" src="/cos/5.webp"></p>
 
 ## 官方包下载安装
-在破解以前，首先要下载安装官方试用版。下载地址（同时提供17.0、18.0版）：[Baidu Pan](https://pan.baidu.com/s/1rlPilrRh4n4q6k1qG1rNsA)；[Google Drive](https://drive.google.com/open?id=1agD0ldESX_AKDAwgTELehil1RoNxfihH)。**根据对应文件夹说明，按需下载运行即可，不必全部下载。**
+在破解以前，首先要下载安装官方试用版。下载地址（同时提供17.0、18.0版）：[Baidu Pan](https://pan.baidu.com/s/1rlPilrRh4n4q6k1qG1rNsA)（密码：zsun）；[Google Drive](https://drive.google.com/open?id=1agD0ldESX_AKDAwgTELehil1RoNxfihH)。**根据对应文件夹说明，按需下载运行即可，不必全部下载。**
 
 * 首先按次序运行.msi安装文件。例如，先安装`1. ChemOffice_Suite_2018.msi`，再安装`2. ChemOffice_64-bit_Support_18.0.msi`，ChemScript大家一般用不到就可以不装（*因为支持的Python版本在3.2以下，用的人太少了，唯一有用的是Excel插件中的CombiChem（反应式）功能；如果要装的话请务必选对版本，比如**装了32位的Excel就应该装32位ChemScript，反之亦然**，否则无法启用*）
 
