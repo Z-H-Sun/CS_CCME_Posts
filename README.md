@@ -17,5 +17,8 @@
   * Gaussian 09 \[Win\], 16 \[Linux, AVX2 & SSE42\] & GaussView 6 \[Win/Linux\]  
     * [Baidu Pan](https://pan.baidu.com/s/1xr7lDuXzpFiu21xodvPCPg)；密码：zsun
 
-* ~~ADF 2012.01 \[Win x86/Linux x64\]~~（已有资源，暂未上传）
-* ~~Turbomole 7.1 \[Win/Linux\]~~（已有资源，暂未上传）
+* ADF 2012.01 \[Win x86/Linux x64\]
+  * [ADF 2012.01 (Win x86/Linux x64) 安装及破解](/adf/adf.md)
+
+* Turbomole 7.1 \[Win/Linux\]
+  * [Turbomole 7.1 \[Win/Linux\] DEMO破解版](/turbomole/tmolx.md)
