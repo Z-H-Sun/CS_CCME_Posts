@@ -10,6 +10,7 @@
 * MestReNova
 
   * [MestReNova 12.0.0~12.0.4 \[Win/Mac\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
+  * [MestReNova 12.0.4 for Ubuntu 18.04 x64 破解替换程序（**新增**）](https://github.com/Z-H-Sun/MRN-ADF_Patch/blob/master/MRN_for_Ubuntu/howto.md)
 
 * Gaussian & GaussView
 
@@ -18,7 +19,7 @@
     * [Baidu Pan](https://pan.baidu.com/s/1xr7lDuXzpFiu21xodvPCPg)；密码：zsun
 
 * ADF 2012.01 \[Win x86/Linux x64\]
-  * [ADF 2012.01 (Win x86/Linux x64) 安装及破解](/adf/adf.md)
+  * [ADF 2012.01 (Win x86/Linux x64) 安装及破解（**新增**）](/adf/adf.md)
 
 * Turbomole 7.1 \[Win/Linux\]
-  * [Turbomole 7.1 \[Win/Linux\] DEMO破解版](/turbomole/tmolx.md)
+  * [Turbomole 7.1 \[Win/Linux\] DEMO破解版（**新增**）](/turbomole/tmolx.md)
