@@ -9,7 +9,7 @@
 
 * MestReNova
 
-  * [MestReNova 12.0.0~12.0.4 \[Win/Mac\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
+  * [MestReNova 12.0.0~14.1.0 \[Win/Mac\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
   * [MestReNova 12.0.4 for Ubuntu 18.04 x64 破解替换程序（**新增**）](https://github.com/Z-H-Sun/MRN-ADF_Patch/blob/master/MRN_for_Ubuntu/howto.md)
 
 * Gaussian & GaussView
