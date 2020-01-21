@@ -3,13 +3,14 @@
 
 * ChemOffice & ChemDraw
 
+  * [ChemOffice 19.0 / 18.2 完美激活方法: 一键轻松解决](/cos/cow2.md)
+  * [Mac 用户福音！ChemDraw 19/18 for Mac 无限试用](/cos/cdm.md)
   * [ChemOffice 2018完美激活方法: Simple, Powerful, and Patcher-Free](/cos/cow.md)
-  * [Mac 用户福音！ChemDraw 18 for Mac 无限试用](/cos/cdm.md)
   * ~~[ChemOffice 2018/2017 for Windows一键破解版](/cos/cow_legacy.md)~~（已不被推荐）
 
 * MestReNova
 
-  * [MestReNova 12.0.0~14.1.0 \[Win/Mac\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
+  * [MestReNova 14.1.0/12.x \[Win/Mac\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
   * [MestReNova 12.0.4 for Ubuntu 18.04 x64 破解替换程序（**新增**）](https://github.com/Z-H-Sun/MRN-ADF_Patch/blob/master/MRN_for_Ubuntu/howto.md)
 
 * Gaussian & GaussView
