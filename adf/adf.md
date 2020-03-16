@@ -27,7 +27,7 @@ export PATH=\$ADFBIN:\$PATH
 EOF
 source ~/.bashrc
 ```
-* 将[许可文件](https://github.com/Z-H-Sun/MRN-ADF_Patch/raw/master/ADF_utils/license.txt)下载后放在`adf2012.01`（`C:\ADF2012.01`或`~/adf2012.01`）文件夹下
+* 将[许可文件](https://github.com/Z-H-Sun/MRN-ADF_Patch/raw/hidden/ADF_utils/license.txt)下载后放在`adf2012.01`（`C:\ADF2012.01`或`~/adf2012.01`）文件夹下
 
 * 该许可文件早已过期，所以我们要对ADF的可执行文件进行一些修改。下载`patchADF`并运行
 
@@ -47,7 +47,7 @@ source ~/.bashrc
 ## 疑难解答
 ### 如何计算有效载流子耦合
 
-* 这个版本的ADF没有自动计算电子/空穴耦合（有效转移积分）*V*的功能（~~2014以上版本才支持这个功能，但可惜网上找不到可用安装包~~）。因此作者编写了`CTIout`这个程序（源码：[CTIout.rb](https://github.com/Z-H-Sun/MRN-ADF_Patch/tree/master/ADF_utils/CTIout)；下载地址：[Windows](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.02/CTIout.exe)、[Linux](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.02/CTIout_Linux)）以实现这个功能。其中有效转移积分*V*和原始转移积分*J*<sub>ab</sub>之间的关系为
+* 这个版本的ADF没有自动计算电子/空穴耦合（有效转移积分）*V*的功能（~~2014以上版本才支持这个功能，但可惜网上找不到可用安装包~~）。因此作者编写了`CTIout`这个程序（源码：[CTIout.rb](https://github.com/Z-H-Sun/MRN-ADF_Patch/tree/hidden/ADF_utils/CTIout)；下载地址：[Windows](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.02/CTIout.exe)、[Linux](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.02/CTIout_Linux)）以实现这个功能。其中有效转移积分*V*和原始转移积分*J*<sub>ab</sub>之间的关系为
 
 <p align="center"><i>V</i> = [<i>J</i><sub>ab</sub> − ½<i>S</i><sub>ab</sub>(<i>H</i><sub>aa</sub> + <i>H</i><sub>bb</sub>)] / (1 − <i>S</i><sub>ab</sub><sup>2</sup>)</p>
 
@@ -61,7 +61,7 @@ source ~/.bashrc
 
 * 尽管ADF是一个强大的量子计算软件，但它相对来说对初学者不太友好，（特别是早期版本的）程序预设做得较差，有许多需要用户注意和自己更改的设置项，否则将会**无法运行**或**得到毫无意义的错误数值**。
 
-* 转移积分运算本质上是 **单点能 (Single Point)** 计算，但在`ADFInput`中编辑时需要在`Single Point`预设的基础上改很多参数，容易忙中出错。因此作者增设了`CTI`预设，[CTI.tpl](https://github.com/Z-H-Sun/MRN-ADF_Patch/raw/master/ADF_utils/CTI.tpl)。请将此文件置于相应文件夹下，便可在`ADFInput`的“预设”选择框中读取：
+* 转移积分运算本质上是 **单点能 (Single Point)** 计算，但在`ADFInput`中编辑时需要在`Single Point`预设的基础上改很多参数，容易忙中出错。因此作者增设了`CTI`预设，[CTI.tpl](https://github.com/Z-H-Sun/MRN-ADF_Patch/raw/hidden/ADF_utils/CTI.tpl)。请将此文件置于相应文件夹下，便可在`ADFInput`的“预设”选择框中读取：
 
   * Windows: `$ADFHOME/../ADF_DATA/Templates`
   * Linux: `~/.scm_gui/Tpl`

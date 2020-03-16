@@ -1,15 +1,13 @@
-# MestReNova 12.0.0~14.1.0 [Win/Mac] [x86/x64] 通用补丁
-**<p align="center">Z.-H. Sun 3月10日</p>**
+# MestReNova 12.0.0~14.1.0 [Win/Mac/Ubuntu] [x86/x64] 通用补丁
+**<p align="center">Z.-H. Sun 2020年3月15日</p>**
 
-**更新：以下方法被证明对目前最新版本14.1.0也一样有效。**
+目前MestReNova的Windows平台下已更新到14.1.0 ~~12.0.4~~，但网上只有14.0 ~~12.0.2~~破解，且只支持32位；Mac平台只有“史蒂芬周博客”的12.0.0破解，而且“Mnova Verify”插件的许可文件写得有问题；没有Linux平台的破解。
 
-目前MestReNova的Windows平台下已更新到14.1.0 ~~12.0.4~~，但网上只有12.0.2破解，且只支持32位；Mac平台只有“史蒂芬周博客”的12.0.0破解，而且“Mnova Verify”插件的许可文件写得有问题。
-
-而本补丁是Windows、Mac、32/64位、12.0.0~12.0.4版本通用的，只需先下载安装官方程序，然后双击运行本补丁即可正常使用。补丁程序**源码**公开在该[仓库](https://github.com/Z-H-Sun/MRN-ADF_Patch)中。
+而本补丁是Windows、Mac、Ubuntu（新增） 32/64位、12.0.0~14.1.0 ~~12.0.4~~版本通用的，只需先下载安装官方程序，然后双击运行本补丁即可正常使用。补丁程序**源码**公开在该[仓库](https://github.com/Z-H-Sun/MRN-ADF_Patch)中。
 
 ## 使用方法
 * 下载、安装对应平台版本的[官方安装程序](http://mestrelab.com/download/mnova/)
-* 下载破解补丁文件至任意位置：[Windows](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.0/MestReNovaCrack.exe) / [Mac](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.01/MestReNovaCrackForMac.tool)
+* 下载破解补丁文件至任意位置：[Windows](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.10/MestReNovaCrack.exe) / [Mac](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.10/MRN_Crack_Mac) / [Ubuntu](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.10/MRN_Crack_Ubuntu)
 
 * Windows下：
 
@@ -19,11 +17,16 @@
 
 * Mac下：
 
-  * 如果未开启**任何来源**，请在运行补丁之前先正常运行一遍软件主程序，完成“正在验证 (Verifying) MestReNova”过程（可能需要2分钟）
-  * 双击.tool文件运行即可。
+  * 最好通过另一台Windows电脑下载程序安装包及补丁文件，U盘拷贝至此Mac电脑。安装结束后以“终端 (Terminal)”方式打开补丁文件，按y确认
+  * 具体操作，或过程中产生任何问题，请参见[一般操作流程及疑难解答](/MAC.md)。
+  * 以下情况有一定可能会发生：如果首次运行时，软件提示“Cache目录设置不正常，是否解决”，**请选择“是”并按照提示输入管理员账号密码即可**（否则会提示许可验证失败，代码0x8000000E）
 <p align="center"><img src="/mestrenova/2.jpg" height="80%" width="80%"></p>
 
-* 本补丁运行时已经包含了写入许可文件的步骤，因此运行结束后即可正常打开和运行MestReNova 12.0。
+* Ubuntu下（新增）：
+
+  * 请首先配置`ruby`环境。使用`sudo apt-get install ruby-full`安装最新版ruby，或者对于non-sudoer用户可选择自行编译
+  * 终端中运行`ruby </path/to/>MRN_Crack_Ubuntu`，按y确认
+* 本补丁运行时已经包含了写入许可文件的步骤，因此运行结束后即可正常打开和运行MestReNova 12.0~14.1。
 
 ## 运行效果图
 *<p align="center"><img src="/mestrenova/1.jpg" height="30%" width="30%">  <img src="/mestrenova/0.jpg" height="39%" width="39%"><br>左：Windows；右：Mac</p>*
