@@ -1,5 +1,7 @@
-﻿# Mac 用户福音！ChemDraw 19/18 for Mac 无限试用
-**<p align="center">Z.-H. Sun 1月21日</p>**
+﻿﻿# Mac 用户福音！ChemDraw 19/18 for Mac 无限试用
+**<p align="center">Z.-H. Sun 2020年1月21日</p>**
+
+**该方法已不被推荐。另请参见：[ChemDraw 19/18/17 for Mac 完全破解版](/cos/cdm2.md)**
 
 **更新日志：**
 * PerkinElmer在前年9月份高调宣布ChemOffice Suite 2018的发布，其中`ChemDraw 18`最受瞩目的新特性是**添加了Reaxys结构/反应式搜索的支持**（原先只支持SciFinder搜索），以及**添加了“插件”功能**（自带：ChemACX的CAS号/性质/价格查询功能）
@@ -10,7 +12,7 @@
 *本试用版需要每次点击“试用”。如果觉得麻烦，本文还提供更旧版本的ChemDraw破解版下载，见[旧版下载安装](/cos/cdm.md#旧版下载安装)一节，不过这样就无法使用新版本特性了。*
 
 **附加说明：**
-* 如果国内用户嫌GitHub下载速度太慢，本文中所有文件都能在[百度网盘分享链接](https://pan.baidu.com/s/1rlPilrRh4n4q6k1qG1rNsA)（密码：zsun）的`Mac OS X`文件夹下找到
+* 如果国内用户嫌GitHub下载速度太慢，本文中所有文件都能在[百度网盘分享链接](https://pan.baidu.com/s/1PDgXv4qrZHybyqf_niM2eA)（密码：csme）中找到
 
 **另请参见：**
 * [Windows版ChemOffice 19/18一键安装破解](/cos/cow2.md)
@@ -19,7 +21,7 @@
 ## 安装与运行
 * 先下载官方程序包[ChemDraw19.dmg](https://github.com/Z-H-Sun/CDM_18/releases/download/v2/ChemDraw19.dmg)（或是[ChemDraw18.dmg](https://github.com/Z-H-Sun/CDM_18/releases/download/v1/ChemDraw18.dmg)），然后双击打开，完成验证过程，正常安装。破解之前一定先**不要运行主程序（重要！虽然有补救方法）**
 
-* 在应用程序文件夹 -> ChemDraw 19.0（或是18.0）图标上右键，显示包内容，然后定位到文件夹：`Contents\Framworks\ChemDrawBase.framework\Versions\A`
+* 在应用程序文件夹 -> ChemDraw 19.0（或是18.0）图标上右键，显示包内容，然后定位到文件夹：`Contents\Frameworks\ChemDrawBase.framework\Versions\A`
 
 * 自己备份好`ChemDrawBase`，**并用这个文件：[19版](https://github.com/Z-H-Sun/CDM_18/raw/master/19.0/Crack/ChemDrawBase)（或是[18版](https://github.com/Z-H-Sun/CDM_18/raw/master/18.0/Crack/ChemDrawBase)）替换**（如下图所示），即可破解成功
 <p align="center"><img width="80%" height="80%" src="/cos/1.webp"></p>

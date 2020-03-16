@@ -1,6 +1,6 @@
 # ChemOffice 2018/2017 for Windows一键破解版
 
-**注意：该方法已不被推荐。更好的激活方法请参见[此文](/cos/cow.md)**。另请参见：[Mac版ChemDraw 18资源](/cos/cdm.md)。
+**注意：该方法已不被推荐。更好的激活方法请参见[此文](/cos/cow2.md)**。另请参见：[Mac版ChemDraw 19/18/17资源](/cos/cdm2.md)。
 
 ## 新版本特性
 > [跳转](/cos/cow.md#新版本特性)

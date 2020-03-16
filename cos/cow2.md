@@ -2,7 +2,7 @@
 **<p align="center">Z.-H. Sun 1月19日</p>**
 
 ## See Also
-* ***ChemDraw for Mac 19.0 / 18.0* 请看[本文](/cos/cdm.md)**
+* ***ChemDraw for Mac 19.0 / 18 / 17* 请看[本文](/cos/cdm2.md)**
 * *ChemOffice for Win 18.0 / 17.0* 请看[本文](/cos/cow.md)
 
 ## 新版本特性

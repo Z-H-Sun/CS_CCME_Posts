@@ -3,15 +3,15 @@
 
 * ChemOffice & ChemDraw
 
-  * [ChemOffice 19.0 / 18.2 完美激活方法: 一键轻松解决](/cos/cow2.md)
-  * [Mac 用户福音！ChemDraw 19/18 for Mac 无限试用](/cos/cdm.md)
-  * [ChemOffice 2018完美激活方法: Simple, Powerful, and Patcher-Free](/cos/cow.md)
+  * [ChemOffice (Win) 19.0 / 18.2 完美激活方法: 一键轻松解决](/cos/cow2.md)（新增）
+  * [ChemDraw (Mac) 19 / 18 / 17 完全破解版](/cos/cdm2.md)（新增）
+  * ~~[Mac 用户福音！ChemDraw 19/18 for Mac 无限试用](/cos/cdm.md)~~（已过时）
+  * ~~[ChemOffice 2018完美激活方法: Simple, Powerful, and Patcher-Free](/cos/cow.md)~~（已过时）
   * ~~[ChemOffice 2018/2017 for Windows一键破解版](/cos/cow_legacy.md)~~（已不被推荐）
 
 * MestReNova
 
-  * [MestReNova 14.1.0/12.x \[Win/Mac\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
-  * [MestReNova 12.0.4 for Ubuntu 18.04 x64 破解替换程序（**新增**）](https://github.com/Z-H-Sun/MRN-ADF_Patch/blob/master/MRN_for_Ubuntu/howto.md)
+  * [MestReNova 14.1.0/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)（新增）
 
 * Gaussian & GaussView
 
@@ -21,7 +21,7 @@
     * [Google Drive](https://drive.google.com/drive/folders/18y4GHdCM6JbDAqHxMtYrAOTuGVcjoah7?usp=sharing)
 
 * ADF 2012.01 \[Win x86/Linux x64\]
-  * [ADF 2012.01 (Win x86/Linux x64) 安装及破解（**新增**）](/adf/adf.md)
+  * [ADF 2012.01 (Win x86/Linux x64) 安装及破解（更新说明）](/adf/adf.md)
 
 * Turbomole 7.1 \[Win/Linux\]
-  * [Turbomole 7.1 \[Win/Linux\] DEMO破解版（**新增**）](/turbomole/tmolx.md)
+  * [Turbomole 7.1 \[Win/Linux\] DEMO破解版](/turbomole/tmolx.md)
