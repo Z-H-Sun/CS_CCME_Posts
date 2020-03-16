@@ -11,7 +11,7 @@
 
 * MestReNova
 
-  * [MestReNova 14.1.0/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)（新增）
+  * [MestReNova 14.1.0/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)（更新）
 
 * Gaussian & GaussView
 
@@ -21,7 +21,7 @@
     * [Google Drive](https://drive.google.com/drive/folders/18y4GHdCM6JbDAqHxMtYrAOTuGVcjoah7?usp=sharing)
 
 * ADF 2012.01 \[Win x86/Linux x64\]
-  * [ADF 2012.01 (Win x86/Linux x64) 安装及破解（更新说明）](/adf/adf.md)
+  * [ADF 2012.01 (Win x86/Linux x64) 安装及破解](/adf/adf.md)（更新说明）
 
 * Turbomole 7.1 \[Win/Linux\]
   * [Turbomole 7.1 \[Win/Linux\] DEMO破解版](/turbomole/tmolx.md)

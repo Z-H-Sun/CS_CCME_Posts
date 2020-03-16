@@ -1,4 +1,4 @@
-﻿﻿# Mac 用户福音！ChemDraw 19/18 for Mac 无限试用
+﻿# Mac 用户福音！ChemDraw 19/18 for Mac 无限试用
 **<p align="center">Z.-H. Sun 2020年1月21日</p>**
 
 **该方法已不被推荐。另请参见：[ChemDraw 19/18/17 for Mac 完全破解版](/cos/cdm2.md)**
@@ -19,6 +19,7 @@
 * [Windows版ChemOffice 18/17简单激活方法](/cos/cow.md)
 
 ## 安装与运行
+* **最好先在另一台Windows电脑上下载下述安装包和替换补丁，用U盘拷贝至此Mac电脑**，详情/若发生错误：请见[一般操作流程及疑难解答](/MAC.md)
 * 先下载官方程序包[ChemDraw19.dmg](https://github.com/Z-H-Sun/CDM_18/releases/download/v2/ChemDraw19.dmg)（或是[ChemDraw18.dmg](https://github.com/Z-H-Sun/CDM_18/releases/download/v1/ChemDraw18.dmg)），然后双击打开，完成验证过程，正常安装。破解之前一定先**不要运行主程序（重要！虽然有补救方法）**
 
 * 在应用程序文件夹 -> ChemDraw 19.0（或是18.0）图标上右键，显示包内容，然后定位到文件夹：`Contents\Frameworks\ChemDrawBase.framework\Versions\A`
