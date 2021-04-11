@@ -34,6 +34,16 @@
 
 <p align="center"><img width="60%" height="60%" src="/cos/202.png"></p>
 
+---
+
+#### Windows 下的替代破解法
+* 虽然上述破解方法几乎完美，但若多个Windows ChemDraw用户在同一局域网内，可能出现弹窗提示（详见 [Issue #5](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/5)）。这是由那个序列号本身的限制所致。此时可尝试另一种不完全破解方法（与网传破解补丁原理相同）。**注意，采用本方法将不能正常使用ChemDraw for Excel、ChemDraw内的Chem3D hotlink等功能（详见之前推送），因此，除非不得已（多个Windows ChemDraw用户在同一局域网内），不推荐采用本方法。**
+
+  * 在安装完 ChemOffice 后（**无论是不是破解版均可**），下载并运行[此破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.12/COS_Win_Patch.Deprecated.exe)，使用方法与上面类似。
+  * 该补丁对 ChemOffice 17~20 通用。
+  * 若仍有弹窗提示（暂未发现），请尝试卸载之前的完全破解补丁（下载上一节中的补丁，按<kbd>R</kbd>进入`Restore`模式）。
+---
+
 ### Mac
 * 和之前的方法一样。以下仅为（替换了部分链接的）复制粘贴。
 * **最好先在另一台Windows电脑上下载下述安装包和替换补丁，用U盘拷贝至此Mac电脑**

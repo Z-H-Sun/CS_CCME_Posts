@@ -67,3 +67,10 @@
 ## 杀毒软件报毒？
 某*数字*国产杀毒软件会报毒（~~这里就不点名了~~），认为`Activate19.exe`是恶意程序。**请放行**。该可执行文件是基于官方程序修改的，如果不放心可以见[破解原理](/cos/cow3.md)以了解该程序是如何运作的。另外，大部分知名防护软件，如诺顿、迈克菲，**均认为该文件不存在威胁**（见下图）。
 <p align="center"><img width="100%" height="100%" src="/cos/195.png"></p>
+
+## 替代破解法
+* 虽然上述破解方法几乎完美，但若多个Windows ChemDraw用户在同一局域网内，可能出现弹窗提示（详见 [Issue #5](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/5)）。这是由那个序列号本身的限制所致。此时可尝试另一种不完全破解方法（与网传破解补丁原理相同）。**注意，采用本方法将不能正常使用ChemDraw for Excel、ChemDraw内的Chem3D hotlink等功能（详见上文），因此，除非不得已（多个Windows ChemDraw用户在同一局域网内），不推荐采用本方法。**
+
+  * 在安装完 ChemOffice 后（**无论是不是破解版均可**），下载并运行[此破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.12/COS_Win_Patch.Deprecated.exe)，使用方法与上面类似。
+  * 该补丁对 ChemOffice 17~20 通用。
+  * 若仍有弹窗提示（暂未发现），请尝试卸载之前的完全破解补丁（下载前文中的补丁，按<kbd>R</kbd>进入`Restore`模式）。
