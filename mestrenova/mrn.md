@@ -1,15 +1,20 @@
-# MestReNova 12.0.0~14.2.0 [Win/Mac/Ubuntu] [x86/x64] 通用补丁
-**<p align="center">Z.-H. Sun 2020年3月15日 更新于 2020年11月22日</p>**
+# MestReNova 12.0.0~14.2.3 [Win/Mac/Ubuntu] [x86/x64] 通用补丁
+**<p align="center">Z.-H. Sun 2020年3月15日</p>**
+**<p align="center">更新于 2020年11月22日</p>**
+**<p align="center">更新于 2022年5月18日</p>**
 
-目前MestReNova的Windows平台下已更新到14.2.0 ~~12.0.4~~，但网上只有14.0 ~~12.0.2~~破解，且只支持32位；Mac平台只有“史蒂芬周博客”的12.0.0破解，而且“Mnova Verify”插件的许可文件写得有问题；没有Linux平台的破解。
+目前MestReNova的Windows平台下已更新到14.2.3 ~~12.0.4~~，但网上只有14.0 ~~12.0.2~~破解，且只支持32位；Mac平台只有“史蒂芬周博客”的12.0.0破解，而且“Mnova Verify”插件的许可文件写得有问题；没有Linux平台的破解。
 
 而本补丁是Windows、Mac、Ubuntu（新增） 32/64位、12.0.0~14.2.0 ~~12.0.4~~版本通用的，只需先下载安装官方程序，然后双击运行本补丁即可正常使用。补丁程序**源码**公开在该[仓库](https://github.com/Z-H-Sun/MRN-ADF_Patch)中。
+
+---
+**22/5/18 更新**：应[Issue #10](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/10)的请求，新增了`ElViS`、`MestrelabPredictor`、`BioHOS`、`StereoFitter`等插件的许可，修正了`IUPAC Name`插件的许可。
 
 ## 仅对 Mac 用户的附加说明 (2020/11/22)
 
 （原因详见[Issue #3](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/3)）
 
-* 对于 14.2.0 及以上版本，请使用[最新的补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.12/MRN_Crack_Mac)，其中解决了数字签名的问题从而**防止闪退**
+* 对于 14.2.0 及以上版本，请使用[最新的补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.14/MRN_Crack_Mac)，其中解决了数字签名的问题从而**防止闪退**
 * 如果你已经将系统更新至 MacOS 11，那么使用低版本的 MestReNova 会闪退，这是由于 NMR Predictor 插件对新系统不兼容的问题（系统库缺失），可采取以下两种办法 **之一**：
 
   * 更新至最新版本 14.2.0 并使用最新补丁程序 **（推荐）；或**
@@ -17,7 +22,7 @@
 
 ## 使用方法
 * 下载、安装对应平台版本的[官方安装程序](http://mestrelab.com/download/mnova/)
-* 下载破解补丁文件至任意位置：[Windows](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.10/MestReNovaCrack.exe) / [Mac](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.12/MRN_Crack_Mac) / [Ubuntu](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.10/MRN_Crack_Ubuntu)
+* 下载破解补丁文件至任意位置：[Windows](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.14/MestReNovaCrack.exe) / [Mac](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.14/MRN_Crack_Mac) / [Ubuntu](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.14/MRN_Crack_Ubuntu)
 
 * Windows下：
 

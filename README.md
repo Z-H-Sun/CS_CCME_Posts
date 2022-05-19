@@ -12,7 +12,7 @@
 
 * MestReNova
 
-  * [MestReNova 14.2.0/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)（更新）
+  * [MestReNova 14.2.3/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)（更新）
 
 * Gaussian & GaussView
 
@@ -26,3 +26,5 @@
 
 * Turbomole 7.1 \[Win/Linux\]
   * [Turbomole 7.1 \[Win/Linux\] DEMO破解版](/turbomole/tmolx.md)
+
+* [Mathematica 11-13 注册机](/mma.md)
