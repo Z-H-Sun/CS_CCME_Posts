@@ -1,11 +1,32 @@
-# ChemOffice 20\~21 for Windows / ChemDraw 20\~21 for Mac 一键破解
-**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 22年3月21日</p>**
+# ChemOffice 20\~22 for Windows / ChemDraw 20\~22 for Mac 一键破解
+**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 22年11月18日</p>**
 
 ## 更早的版本
 * [ChemOffice for Win 19 / 18 / 17](/cos/cow2.md)
 * [ChemDraw for Mac 19 / 18 / 17](/cos/cdm2.md)
 
+## [跳过 新版本特性 一节](#本方法优点)
+
 ## 新版本特性
+### 22.0
+* 终于把给`Chem3D`整成 64 位的了……从此版本起，无需再把 32 位、64 位的 ChemOffice 重复装两遍了。如果你是 64 位系统，建议只装 64 位即可（除非你要用到`ChemFinder`，99% 用户都不需要）
+  * 有 64 位`Chem3D`后就可以在 64 位`ChemDraw`里查看`Chem3D HotLink Window`了（在顶端`View`菜单中打开）
+* 鉴于`ChemDraw`的 3D 显示功能日渐完善，现已支持直接打开单晶`.cif`文件，以三维形式显示（见下图）
+  * 其实很鸡肋，二维画布显示三维结构显得特别拥挤，而且也不能较好地更改原子的三维位置（只能在面内平移）
+* 虽然之前就有虚线键可以用来表示氢键，但现在新增了一个“氢键”类型（中间不是虚线而是点线），更加规范化了（见下图）
+* “导出分子的三维结构”功能中，之前只支持高亮`键/原子`，现在新增对`环`高亮的支持（见下图）
+  * 在这种没啥乱用的功能上挤牙膏……~~这种行为我们一般称之为不务正业……~~
+* 画寡聚核酸、多肽等生物大分子时，若选用`Sequence Graphic Monomers`样式，则会以更美观的流式图形式显示（`File -> Apply document settings from`菜单中选择，见下图）
+  * 咱不搞生物，但也没觉得美观到哪里去~
+* `ChemScript`大部分人都用不到，不过有一个说大不大说小不小的更新，就是把几百年前就开始依赖的`python 3.4`（Python 官方早就不维护了）更新成`3.9`了，可喜可贺
+
+新功能展示及破解效果图（上：Win；下：Mac）：
+
+<p align="center">
+<img width="60%" height="60%" src="/cos/220.png">
+<img width="60%" height="60%" src="/cos/221.png">
+</p>
+
 ### 21.0
 * （自20.1版本起）[解决了](https://informatics-support.perkinelmer.com/hc/en-us/articles/4408274326932)一个因 Win10 更新导致的[软件卡顿问题](https://www.zhihu.com/question/444922651/answer/1979751680)
 * 支持导出球棍模型为 3MF 格式，在 Win10 下可以很方便地用 `PowerPoint`、`3D Builder`、以及自带的`画图3D`、`Print 3D`查看（或编辑）。也支持复制到剪贴板，这样可以（省下导出的这步操作）直接粘到 `PPT` 或 `3D Builder` 里。
@@ -44,14 +65,14 @@
 
 ## 使用方法
 ### Windows
-* 只需直接下载运行单文件版安装破解程序`cos21.0_Crack.exe`或`cos20.0_Crack.exe`，即可正常使用。正常安装结束后，自动跳出破解补丁窗口。
+* 只需直接下载运行单文件版安装破解程序`cos22.0_Crack.exe`或`cos21.0_Crack.exe`或`cos20.0_Crack.exe`，即可正常使用。正常安装结束后，自动跳出破解补丁窗口。
 
   * [Google Drive](https://drive.google.com/open?id=1FT3l0msiLPsarmT78JQ8_sgbdJLMY4_X)
   * [百度网盘](https://pan.baidu.com/s/1smDXW8GNTPErq_yjilDhLg?pwd=csme)
   
-* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.13/COS_Win_Patch.exe)
+* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15/COS_Win_Patch.exe)
 
-  * 注意请下载上方链接中的最新补丁程序。早先的补丁无法正确破解 21.0 版本，已在最新版中修复该 Bug。因为这是通用破解补丁，预计之后再出新版也能正常破解
+  * 注意请下载上方链接中的最新补丁程序。早先的补丁无法正确破解 22.0/21.0 版本，已在最新版中修复该 Bug。因为这是通用破解补丁，预计之后再出新版也能正常破解
   * 如果已经下载运行了上面的单文件版安装破解程序，因其本身就会自动运行该破解补丁程序，**故无需再另行下载此补丁**
 * 破解过程中，按窗口提示操作，或者直接等一会（以默认模式进行）即可。最后可以选填注册信息，不影响破解，只是会将这些信息显示在软件的“关于”对话框中（见第一张图）。（和之前的破解补丁不同，最后不会弹出新的注册信息对话框，因为已经整合到主程序中了。）
 
@@ -71,11 +92,11 @@
 * 和之前的方法一样。以下仅为（替换了部分链接的）复制粘贴。
 * **最好先在另一台Windows电脑上下载下述安装包和替换补丁，用U盘拷贝至此Mac电脑**
 
-  * 先下载官方程序包`ChemDraw21.dmg`或`ChemDraw20.dmg`，然后双击打开，正常安装。
+  * 先下载官方程序包`ChemDraw22.dmg`或`ChemDraw21.dmg`或`ChemDraw20.dmg`，然后双击打开，正常安装。
 
     * [Google Drive](https://drive.google.com/open?id=1GRwysPQhOYnrriZTKSRc05Mf_Q7xd5DC)
     * [百度网盘](https://pan.baidu.com/s/1PDgXv4qrZHybyqf_niM2eA?pwd=csme)
-  * 下载[补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.12/CDM_Crack)至任意位置，以“终端 (Terminal)”方式打开补丁文件
+  * 下载[补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15/CDM_Crack)至任意位置，以“终端 (Terminal)”方式打开补丁文件
 
     * 上面的网盘文件夹里也有这个文件 `CDM_Crack`，择一方式下载即可
   * 详情/若发生错误：请见[一般操作流程及疑难解答](/MAC.md)

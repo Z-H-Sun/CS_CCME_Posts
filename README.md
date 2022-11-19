@@ -3,7 +3,7 @@
 
 * ChemOffice & ChemDraw
 
-  * **[ChemOffice 20\~21 for Windows / ChemDraw 20\~21 for Mac 一键破解](/cos/cos20.md)**（更新）
+  * **[ChemOffice 20\~22 for Windows / ChemDraw 20\~22 for Mac 一键破解](/cos/cos20.md)**（更新）
   * [ChemOffice (Win) 19.0 / 18.2 完美激活方法: 一键轻松解决](/cos/cow2.md)
   * [ChemDraw (Mac) 19 / 18 / 17 完全破解版](/cos/cdm2.md)
   * ~~[Mac 用户福音！ChemDraw 19/18 for Mac 无限试用](/cos/cdm.md)~~（已过时）
@@ -12,7 +12,7 @@
 
 * MestReNova
 
-  * [MestReNova 14.2.3/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)（更新）
+  * [MestReNova 14.2.3/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
 
 * Gaussian & GaussView
 
