@@ -5,10 +5,9 @@
 * [ChemOffice for Win 19 / 18 / 17](/cos/cow2.md)
 * [ChemDraw for Mac 19 / 18 / 17](/cos/cdm2.md)
 
-## [跳过 新版本特性 一节](#本方法优点)
-
 ## 新版本特性
-### 22.0
+<details><summary><b>22.0</b></summary><p>
+
 * 终于把给`Chem3D`整成 64 位的了……从此版本起，无需再把 32 位、64 位的 ChemOffice 重复装两遍了。如果你是 64 位系统，建议只装 64 位即可（除非你要用到`ChemFinder`，99% 用户都不需要）
   * 有 64 位`Chem3D`后就可以在 64 位`ChemDraw`里查看`Chem3D HotLink Window`了（在顶端`View`菜单中打开）
 * 鉴于`ChemDraw`的 3D 显示功能日渐完善，现已支持直接打开单晶`.cif`文件，以三维形式显示（见下图）
@@ -27,7 +26,10 @@
 <img width="60%" height="60%" src="/cos/221.png">
 </p>
 
-### 21.0
+</p></details>
+
+<details><summary><b>21.0</b></summary><p>
+
 * （自20.1版本起）[解决了](https://informatics-support.perkinelmer.com/hc/en-us/articles/4408274326932)一个因 Win10 更新导致的[软件卡顿问题](https://www.zhihu.com/question/444922651/answer/1979751680)
 * 支持导出球棍模型为 3MF 格式，在 Win10 下可以很方便地用 `PowerPoint`、`3D Builder`、以及自带的`画图3D`、`Print 3D`查看（或编辑）。也支持复制到剪贴板，这样可以（省下导出的这步操作）直接粘到 `PPT` 或 `3D Builder` 里。
 
@@ -46,7 +48,10 @@
 <img width="60%" height="60%" src="/cos/211.png">
 </p>
 
-### 20.0
+</p></details>
+
+<details><summary><b>20.0</b></summary><p>
+
 * 添加新快捷键，例如<kbd>Enter</kbd>编辑当前分子，离开鼠标，仅用键盘即可快速画出反应式。新增快捷键一览表，各种快捷操作一目了然。
 * 继19版新增给环着色功能后，本版又增加给键/原子/标签增加颜色高亮功能
 * 新增结构式3D清理功能，画出平面键线式可自动生成三维构型（包含透视效果及远处虚化效果），结合“Structure Perspective”工具使用，搞天然产物合成的同志们一定非常喜欢
@@ -57,6 +62,8 @@
 <img width="60%" height="60%" src="/cos/200.png">
 <img width="60%" height="60%" src="/cos/201.png">
 </p>
+
+</p></details>
 
 ## 本方法优点
 * 本法为通用破解补丁，预计之后再出新版也能轻松解决，无需满网找资源（还找不到）
