@@ -1,5 +1,5 @@
 # ChemOffice 20\~22 for Windows / ChemDraw 20\~22 for Mac 一键破解
-**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 22年11月18日</p>**
+**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 23年4月16日</p>**
 
 ## 更早的版本
 * [ChemOffice for Win 19 / 18 / 17](/cos/cow2.md)
@@ -77,7 +77,7 @@
   * [Google Drive](https://drive.google.com/open?id=1FT3l0msiLPsarmT78JQ8_sgbdJLMY4_X)
   * [百度网盘](https://pan.baidu.com/s/1smDXW8GNTPErq_yjilDhLg?pwd=csme)
   
-* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15/COS_Win_Patch.exe)
+* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15r/COS_Win_Patch.exe)
 
   * 注意请下载上方链接中的最新补丁程序。早先的补丁无法正确破解 22.0/21.0 版本，已在最新版中修复该 Bug。因为这是通用破解补丁，预计之后再出新版也能正常破解
   * 如果已经下载运行了上面的单文件版安装破解程序，因其本身就会自动运行该破解补丁程序，**故无需再另行下载此补丁**
@@ -85,13 +85,38 @@
 
 <p align="center"><img width="60%" height="60%" src="/cos/202.png"></p>
 
+#### 疑难解答
+#### Windows 下 ChemScript Python 接口用户
+<details>
+
+**虽然99%的用户不会用到这个功能**，但如果你需要用到 ChemScript 进行一些批处理，你会发现之前的破解补丁未能完全破解其 Python 接口（详见 [Issue #15](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/15)）。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15r/COS_Win_Patch.exe)即可。
+</details>
+
+#### 破解过程中出现红色（Failed）的解决方法
+<details>
+
+破解过程中如果出现红色失败信息，且提示为`Error occurred: #<Errno::EACCES: Permission denied - [文件名]>`，说明该文件正在被占用，无法写入。请关闭所有 ChemOffice 相关程序后重试。
+
+但有时，"ChemDrawCtl22.dll" 等文件仍然提示正在占用。这可能是由于 Windows 资源管理器的缩略图缓存 (Thumbnail Cache) 服务正在工作中。最简单的方法就是重启电脑。也可以在任务管理器中结束命令行为`dllhost.exe /ProcessiD:{ab8902b4-09ca-4bb6-b78d-a8f59079a8d5}`的进程，如下图所示。
+
+![](https://user-images.githubusercontent.com/48094808/232275061-82b274aa-6118-4368-b706-139d43ebaddc.png)
+
+等价地，可以在`powershell`中执行以下命令：
+```powershell
+$prc = get-wmiobject win32_process -filter "commandline like '%dllhost%ab8902b4%'"
+$prc | select-object processid,commandline
+$prc | remove-wmiobject
+```
+其中第一行查找相关进程，第二行会显示相应的进程信息，第三行结束该进程。在该过程中你可能需要管理员权限。
+</details>
+
 ---
 
 #### Windows 下的替代破解法
 * 虽然上述破解方法几乎完美，但若多个Windows ChemDraw用户在同一局域网内，可能出现弹窗提示（详见 [Issue #5](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/5)）。这是由那个序列号本身的限制所致。此时可尝试另一种不完全破解方法（与网传破解补丁原理相同）。**注意，采用本方法将不能正常使用ChemDraw for Excel、ChemDraw内的Chem3D hotlink等功能（详见之前推送），因此，除非不得已（多个Windows ChemDraw用户在同一局域网内），不推荐采用本方法。**
 
-  * 在安装完 ChemOffice 后（**无论是不是破解版均可**），下载并运行[此破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.13/COS_Win_Patch.Deprecated.exe)，使用方法与上面类似。
-  * 该补丁对 ChemOffice 17~21 通用。
+  * 在安装完 ChemOffice 后（**无论是不是破解版均可**），下载并运行[此破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15r/COS_Win_Patch.Deprecated.exe)，使用方法与上面类似。
+  * 该补丁对 ChemOffice 17~22 通用。
   * 若仍有弹窗提示（暂未发现），请尝试卸载之前的完全破解补丁（下载上一节中的补丁，按<kbd>R</kbd>进入`Restore`模式）。
 ---
 
