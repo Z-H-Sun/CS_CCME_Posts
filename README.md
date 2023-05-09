@@ -22,7 +22,7 @@
     * [Google Drive](https://drive.google.com/drive/folders/18y4GHdCM6JbDAqHxMtYrAOTuGVcjoah7?usp=sharing)
 
 * ADF 2012.01 \[Win x86/Linux x64\]
-  * [ADF 2012.01 (Win x86/Linux x64) 安装及破解](/adf/adf.md)（更新说明）
+  * [ADF 2012.01 (Win x86/Linux x64) 安装及破解](/adf/adf.md)
 
 * Turbomole 7.1 \[Win/Linux\]
   * [Turbomole 7.1 \[Win/Linux\] DEMO破解版](/turbomole/tmolx.md)

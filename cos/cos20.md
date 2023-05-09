@@ -1,5 +1,5 @@
 # ChemOffice 20\~22 for Windows / ChemDraw 20\~22 for Mac 一键破解
-**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 23年4月16日</p>**
+**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 23年5月8日</p>**
 
 ## 更早的版本
 * [ChemOffice for Win 19 / 18 / 17](/cos/cow2.md)
@@ -77,7 +77,7 @@
   * [Google Drive](https://drive.google.com/open?id=1FT3l0msiLPsarmT78JQ8_sgbdJLMY4_X)
   * [百度网盘](https://pan.baidu.com/s/1smDXW8GNTPErq_yjilDhLg?pwd=csme)
   
-* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15r/COS_Win_Patch.exe)
+* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.16/COS_Win_Patch.exe)
 
   * 注意请下载上方链接中的最新补丁程序。早先的补丁无法正确破解 22.0/21.0 版本，已在最新版中修复该 Bug。因为这是通用破解补丁，预计之后再出新版也能正常破解
   * 如果已经下载运行了上面的单文件版安装破解程序，因其本身就会自动运行该破解补丁程序，**故无需再另行下载此补丁**
@@ -86,10 +86,16 @@
 <p align="center"><img width="60%" height="60%" src="/cos/202.png"></p>
 
 #### 疑难解答
+#### 最新版 ChemOffice 22.2 破解
+<details>
+
+**如果你在其他地方下载并安装了最新版的22.2版ChemOffice**，则原先的补丁失效，具体原因见[Issue #20](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/20#issuecomment-1532687318)。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.16/COS_Win_Patch.exe)即可。
+</details>
+
 #### Windows 下 ChemScript Python 接口用户
 <details>
 
-**虽然99%的用户不会用到这个功能**，但如果你需要用到 ChemScript 进行一些批处理，你会发现之前的破解补丁未能完全破解其 Python 接口（详见 [Issue #15](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/15)）。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15r/COS_Win_Patch.exe)即可。
+**虽然99%的用户不会用到这个功能**，但如果你需要用到 ChemScript 进行一些批处理，你会发现之前的破解补丁未能完全破解其 Python 接口（详见 [Issue #15](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/15)）。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.16/COS_Win_Patch.exe)即可。
 </details>
 
 #### 破解过程中出现红色（Failed）的解决方法

@@ -13,7 +13,7 @@ ChemOffice应用程序在检测激活的部分是用.NET写的，因此很容易
 因此，推荐使用[本方法](/cos/cow2.md)。本方法中，`Patch.exe`由**开源Ruby代码**[Patch.rb](https://github.com/Z-H-Sun/MRN-ADF_Patch/blob/hidden/COS_for_Win/Patch.rb)经[Exerb](http://sourceforge.jp/projects/exerb/)编译而成，依赖于可执行文件`./Activation/activate18或19.exe`（基于官方安装包中的`Activate.exe`文件修改，见[此处](https://github.com/Z-H-Sun/MRN-ADF_Patch/tree/hidden/COS_for_Win/Activation))。
 
 ## 18版一键破解原理
-参考「[本方法原理](cos/cow2.md#本方法原理)」。简而言之，迫使程序采用旧注册机制；因此，首先`Patch.exe`将相关的`FlxC*.dll`全部重命名，使程序找不到新注册机制相关的动态链接库，从而回滚至旧注册机制。随后，`Patch.exe`会调用官方安装包中的`Activate.exe`（它相当于是将每个ChemOffice组件中和激活相关的部分单独分离出来）。但**为了方便用户“一键激活”**，利用[`dnSpy`](https://github.com/0xd4d/dnSpy)工具更改了`ActivationDlg`中部分`TextBox`和`Label`控件的Caption，更改了默认的`m_actcode`（激活码（设为6\*E-7\*\*W3-5\*-Q\*5P-J3\*\*X-O\*\*X-35\*\*N））和`m_uinfo`（包含用户名（设为电脑当前用户名）、序列号（设为87\*-38\*\*99-9\*\*4）等信息）。部分修改代码见下
+参考「[本方法原理](/cos/cow.md#本方法原理)」。简而言之，迫使程序采用旧注册机制；因此，首先`Patch.exe`将相关的`FlxC*.dll`全部重命名，使程序找不到新注册机制相关的动态链接库，从而回滚至旧注册机制。随后，`Patch.exe`会调用官方安装包中的`Activate.exe`（它相当于是将每个ChemOffice组件中和激活相关的部分单独分离出来）。但**为了方便用户“一键激活”**，利用[`dnSpy`](https://github.com/0xd4d/dnSpy)工具更改了`ActivationDlg`中部分`TextBox`和`Label`控件的Caption，更改了默认的`m_actcode`（激活码（设为6\*E-7\*\*W3-5\*-Q\*5P-J3\*\*X-O\*\*X-35\*\*N））和`m_uinfo`（包含用户名（设为电脑当前用户名）、序列号（设为87\*-38\*\*99-9\*\*4）等信息）。部分修改代码见下
 
 <p align="center"><img width="100%" height="100%" src="/cos/principle1.png"></p>
 
