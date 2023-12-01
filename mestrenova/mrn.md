@@ -1,11 +1,10 @@
-# MestReNova 12.0.0~14.2.3 [Win/Mac/Ubuntu] [x86/x64] 通用补丁
+# MestReNova 12.0.0~15.0.0 [Win/Mac/Ubuntu] [x86/x64] 通用补丁
 **<p align="center">Z.-H. Sun 2020年3月15日</p>**
-**<p align="center">更新于 2020年11月22日</p>**
-**<p align="center">更新于 2022年5月18日</p>**
+**<p align="center">更新于 2023年12月1日</p>**
 
-目前MestReNova的Windows平台下已更新到14.2.3 ~~12.0.4~~，但网上只有14.0 ~~12.0.2~~破解，且只支持32位；Mac平台只有“史蒂芬周博客”的12.0.0破解，而且“Mnova Verify”插件的许可文件写得有问题；没有Linux平台的破解。
+目前MestReNova的Windows平台下已更新到15.0.0 ~~12.0.4~~，但网上只有14.0 ~~12.0.2~~破解，且只支持32位；Mac平台只有“史蒂芬周博客”的12.0.0破解，而且“Mnova Verify”插件的许可文件写得有问题；没有Linux平台的破解。
 
-而本补丁是Windows、Mac、Ubuntu（新增） 32/64位、12.0.0~14.2.0 ~~12.0.4~~版本通用的，只需先下载安装官方程序，然后双击运行本补丁即可正常使用。补丁程序**源码**公开在该[仓库](https://github.com/Z-H-Sun/MRN-ADF_Patch)中。
+而本补丁是Windows、Mac、Ubuntu（新增） 32/64位、12.0.0~15.0.0 ~~12.0.4~~版本通用的，只需先下载安装官方程序，然后双击运行本补丁即可正常使用。补丁程序**源码**公开在该[仓库](https://github.com/Z-H-Sun/MRN-ADF_Patch)中。
 
 ---
 **22/5/18 更新**：应[Issue #10](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/10)的请求，新增了`ElViS`、`MestrelabPredictor`、`BioHOS`、`StereoFitter`等插件的许可，修正了`IUPAC Name`插件的许可。

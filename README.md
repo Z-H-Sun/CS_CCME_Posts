@@ -12,7 +12,7 @@
 
 * MestReNova
 
-  * [MestReNova 14.2.3/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
+  * [MestReNova 15/14/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
 
 * Gaussian & GaussView
 

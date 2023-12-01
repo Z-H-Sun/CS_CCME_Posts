@@ -1,5 +1,5 @@
 # ChemOffice 20\~22 for Windows / ChemDraw 20\~22 for Mac 一键破解
-**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 23年5月8日</p>**
+**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 23年12月1日</p>**
 
 ## 更早的版本
 * [ChemOffice for Win 19 / 18 / 17](/cos/cow2.md)
@@ -76,6 +76,7 @@
 
   * [Google Drive](https://drive.google.com/open?id=1FT3l0msiLPsarmT78JQ8_sgbdJLMY4_X)
   * [百度网盘](https://pan.baidu.com/s/1smDXW8GNTPErq_yjilDhLg?pwd=csme)
+  * 所有密码为 `csme`
   
 * **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.16/COS_Win_Patch.exe)
 
