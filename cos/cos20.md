@@ -1,11 +1,28 @@
-# ChemOffice 20\~22 for Windows / ChemDraw 20\~22 for Mac 一键破解
-**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 23年12月1日</p>**
+# ChemOffice 20\~23 for Windows / ChemDraw 20\~23 for Mac 一键破解
+**<p align="center">Z.-H. Sun 20年11月27日<br>更新于 24年3月17日</p>**
 
 ## 更早的版本
 * [ChemOffice for Win 19 / 18 / 17](/cos/cow2.md)
 * [ChemDraw for Mac 19 / 18 / 17](/cos/cdm2.md)
 
 ## 新版本特性
+<details><summary><b>23.0</b></summary><p>
+
+感觉 ChemDraw 可能真的没什么活可整了，这个新版本没有什么令人期待的新功能。
+* 母公司 PerkinElmer 分出来一个子公司 Revvity 主管 ChemDraw 软件，然后软件名由 ChemOffice Suite 改回了 ChemDraw Suite。
+* 声称加强了和云端 APP——ChemDrawCollections（旧称 ChemDraw+、ChemOffice+）——的联系，但好像没有做好，菜单和按钮都是灰的。而且之前说过，这个云应用是不可能破解的（~~除非把 Revvity 的数据库黑了……~~）
+* 新增了只为当前用户安装的选项（安装时不需要管理员权限）。
+* 个人感觉最有用，但是没有在 Release Note 里面明说的一个 bug 修复：20\~22 版本的 ChemDraw 里的对话框（比如缩放、旋转等）如果按 <kbd>ESC</kbd> 键取消，则整个软件会卡住；最新版本终于没有这个 bug 了。
+
+破解效果图（上：Win；下：Mac）：
+
+<p align="center">
+<img width="60%" height="60%" src="/cos/230.png">
+<img width="60%" height="60%" src="/cos/231.png">
+</p>
+
+</p></details>
+
 <details><summary><b>22.0</b></summary><p>
 
 * 终于把给`Chem3D`整成 64 位的了……从此版本起，无需再把 32 位、64 位的 ChemOffice 重复装两遍了。如果你是 64 位系统，建议只装 64 位即可（除非你要用到`ChemFinder`，99% 用户都不需要）
@@ -72,31 +89,40 @@
 
 ## 使用方法
 ### Windows
-* 只需直接下载运行单文件版安装破解程序`cos22.0_Crack.exe`或`cos21.0_Crack.exe`或`cos20.0_Crack.exe`，即可正常使用。正常安装结束后，自动跳出破解补丁窗口。
+* 只需直接下载运行单文件版安装破解程序`cos23.0_Crack.exe`或`cos22.0_Crack.exe`或`cos21.0_Crack.exe`或`cos20.0_Crack.exe`，即可正常使用。正常安装结束后，自动跳出破解补丁窗口。
 
   * [Google Drive](https://drive.google.com/open?id=1FT3l0msiLPsarmT78JQ8_sgbdJLMY4_X)
   * [百度网盘](https://pan.baidu.com/s/1smDXW8GNTPErq_yjilDhLg?pwd=csme)
   * 所有密码为 `csme`
-  
-* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.16/COS_Win_Patch.exe)
 
-  * 注意请下载上方链接中的最新补丁程序。早先的补丁无法正确破解 22.0/21.0 版本，已在最新版中修复该 Bug。因为这是通用破解补丁，预计之后再出新版也能正常破解
+> [!note]
+> 因为某些不可抗力（详见[Issue #26](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/26#issuecomment-1830689605)），在 Google Drive 上，自 20.0 版起的安装包只能以 RAR 压缩包形式发布。解压密码为 `csme`，解压出相应的单个 EXE 安装文件后运行即可。虽然二次压缩看上去很蠢，但也是不得已而为之。或者可以前往百度网盘以直接下载单个 EXE 安装文件。
+
+> [!note]
+> 因为 23.0 安装包实在太大，为减轻个人网盘空间的压力，该版本的懒人安装包剔除了非必要的 非管理员权限（仅为当前用户安装）的安装包，以及 ChemDrawCollections（旧称 ChemDraw+、ChemOffice+）的安装包（反正云应用没法破解也用不了）。如果实在特别需要，可以移步别处下载官方版，然后单独下载使用破解补丁（见下条说明）。
+
+> [!tip]
+> 虽然在测试中从未碰到过，但如果 23.0 版弹窗询问选择何种注册模式，请选择第二种——Activation Code（详见下方 Mac 版中的相关说明）。
+
+* **若已经安装了未破解版或网传不完全破解版**，则可单独下载使用[破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)
+
+  * 注意请下载上方链接中的最新补丁程序。早先的补丁无法正确破解 23.0/22.0/21.0 版本，已在最新版中修复该 Bug。因为这是通用破解补丁，预计之后再出新版也能正常破解
   * 如果已经下载运行了上面的单文件版安装破解程序，因其本身就会自动运行该破解补丁程序，**故无需再另行下载此补丁**
 * 破解过程中，按窗口提示操作，或者直接等一会（以默认模式进行）即可。最后可以选填注册信息，不影响破解，只是会将这些信息显示在软件的“关于”对话框中（见第一张图）。（和之前的破解补丁不同，最后不会弹出新的注册信息对话框，因为已经整合到主程序中了。）
 
 <p align="center"><img width="60%" height="60%" src="/cos/202.png"></p>
 
 #### 疑难解答
-#### 最新版 ChemOffice 22.2 破解
+#### ChemOffice 22.2 破解
 <details>
 
-**如果你在其他地方下载并安装了最新版的22.2版ChemOffice**，则原先的补丁失效，具体原因见[Issue #20](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/20#issuecomment-1532687318)。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.16/COS_Win_Patch.exe)即可。
+**如果你在其他地方下载并安装了 22.2 版ChemOffice**，则原先的补丁失效，具体原因见[Issue #20](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/20#issuecomment-1532687318)。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)即可。
 </details>
 
 #### Windows 下 ChemScript Python 接口用户
 <details>
 
-**虽然99%的用户不会用到这个功能**，但如果你需要用到 ChemScript 进行一些批处理，你会发现之前的破解补丁未能完全破解其 Python 接口（详见 [Issue #15](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/15)）。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.16/COS_Win_Patch.exe)即可。
+**虽然99%的用户不会用到这个功能**，但如果你需要用到 ChemScript 进行一些批处理，你会发现之前的破解补丁未能完全破解其 Python 接口（详见 [Issue #15](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/15)）。该问题已在最新破解补丁中解决。请重新下载运行[最新版破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.exe)即可。
 </details>
 
 #### 破解过程中出现红色（Failed）的解决方法
@@ -122,9 +148,19 @@ $prc | remove-wmiobject
 #### Windows 下的替代破解法
 * 虽然上述破解方法几乎完美，但若多个Windows ChemDraw用户在同一局域网内，可能出现弹窗提示（详见 [Issue #5](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/5)）。这是由那个序列号本身的限制所致。此时可尝试另一种不完全破解方法（与网传破解补丁原理相同）。**注意，采用本方法将不能正常使用ChemDraw for Excel、ChemDraw内的Chem3D hotlink等功能（详见之前推送），因此，除非不得已（多个Windows ChemDraw用户在同一局域网内），不推荐采用本方法。**
 
-  * 在安装完 ChemOffice 后（**无论是不是破解版均可**），下载并运行[此破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15r/COS_Win_Patch.Deprecated.exe)，使用方法与上面类似。
+  * 在安装完 ChemOffice 后（**无论是不是破解版均可**），下载并运行[此破解补丁](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/COS_Win_Patch.Deprecated.exe)，使用方法与上面类似。
   * 该补丁对 ChemOffice 17~22 通用。
   * 若仍有弹窗提示（暂未发现），请尝试卸载之前的完全破解补丁（下载上一节中的补丁，按<kbd>R</kbd>进入`Restore`模式）。
+
+> [!caution]
+> 本方法似乎已对 ChemDraw 23.0 失效。虽然 Chem3D 23.0 仍然能打开，但对于 ChemDraw 则会一直弹出如下弹窗，无法正常打开软件。因此，请勿使用这个补丁，并请 [提交 Issue](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/new) 并附上相关细节。
+
+<details><summary>点此展开查看 23.0 版本出错的截图</summary>
+
+<p align="center"><img width="60%" height="60%" src="/cos/233.png"></p>
+
+</details>
+
 ---
 
 ### Mac
@@ -135,7 +171,7 @@ $prc | remove-wmiobject
 
     * [Google Drive](https://drive.google.com/open?id=1GRwysPQhOYnrriZTKSRc05Mf_Q7xd5DC)
     * [百度网盘](https://pan.baidu.com/s/1PDgXv4qrZHybyqf_niM2eA?pwd=csme)
-  * 下载[补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.15/CDM_Crack)至任意位置，以“终端 (Terminal)”方式打开补丁文件
+  * 下载[补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.17/CDM_Crack)至任意位置，以“终端 (Terminal)”方式打开补丁文件
 
     * 上面的网盘文件夹里也有这个文件 `CDM_Crack`，择一方式下载即可
   * 详情/若发生错误：请见[一般操作流程及疑难解答](/MAC.md)
@@ -147,5 +183,10 @@ $prc | remove-wmiobject
 <p align="center"><img width="60%" height="60%" src="/cos/203.png"></p>
 
 * 运行ChemDraw，点击Install按钮后，**即可正常激活**。在ChemDraw -> About窗口中，Licensed to后为空**是正常现象**。
+
+> [!note]
+> 23.0 版 ChemDraw 会弹窗询问选择何种注册模式，请选择第二种——Activation Code（见下图）。
+
+<p align="center"><img width="60%" height="60%" src="/cos/232.png"></p>
 
 以上安装破解过程在Mac OS X 10.14、10.16及最新版 11.0 上测试通过。
