@@ -6,4 +6,4 @@ Turbomole官网可下载到DEMO版，但有一些限制。这两篇文章详细�
 
 * DEMO程序下载链接：[Baidu Pan](https://pan.baidu.com/s/1EoZcW_fPW6RVqBMyqMAjuw)（提取码：zsun）；[Google Drive](https://drive.google.com/open?id=1xXSPx5JbZ6uePNAJh-CBl7Lk6auJfDt5)
 
-* Windows下运行.exe文件，Linux下运行.bin文件，安装完之后再下载破解补丁[压缩包](https://github.com/Z-H-Sun/CS_CCME_Posts/raw/master/turbomole/patch.zip)，按压缩包中的说明文档操作即可成功破解。
+* Windows下运行.exe文件，Linux下运行.bin文件，安装完之后再下载破解补丁[压缩包](https://github.com/Z-H-Sun/CS_CCME_Posts/raw/tags/hidden/turbomole/patch.zip)，按压缩包中的说明文档操作即可成功破解。
