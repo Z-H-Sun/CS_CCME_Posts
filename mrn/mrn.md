@@ -35,14 +35,14 @@
 
   * 双击运行破解补丁。若MestReNova安装在系统盘，需**右键 -> 以管理员身份**运行
   * 即使装有超过一个版本的MestReNova，程序也能找出所有版本的安装路径（见下图）。直接回车将对所有版本进行破解，或输入需要破解的某一个版本的序号。本补丁可能不支持非12.0的更低级版本，请将它们排除在外。
-<p align="center"><img src="/mestrenova/3.jpg" height="80%" width="80%"></p>
+<p align="center"><img src="/mrn/3.jpg" height="80%" width="80%"></p>
 
 * Mac下：
 
   * 最好通过另一台Windows电脑下载程序安装包及补丁文件，U盘拷贝至此Mac电脑。安装结束后以“终端 (Terminal)”方式打开补丁文件，按y确认
   * 具体操作，或过程中产生任何问题，请参见[一般操作流程及疑难解答](/MAC.md)。
   * 以下情况有一定可能会发生：如果首次运行时，软件提示“Cache目录设置不正常，是否解决”，**请选择“是”并按照提示输入管理员账号密码即可**（否则会提示许可验证失败，代码0x8000000E）
-<p align="center"><img src="/mestrenova/2.jpg" height="80%" width="80%"></p>
+<p align="center"><img src="/mrn/2.jpg" height="80%" width="80%"></p>
 
 * Ubuntu下（新增）：
 
@@ -51,9 +51,9 @@
 
 ### 关于插件
 * 本补丁运行时已经包含了写入许可文件的步骤，因此补丁运行结束后即可正常打开和运行MestReNova 12.0~16.0
-* 如果要使用 MestReNova 中一开始默认未开启的插件，请前往 Advanced Plug-ins... 窗口中启用，然后重启软件。部分插件需要前往 [MestReNova 官网](https://mestrelab.com/main-product/mnova) 下载，然后按照指示进行安装。本补丁已包含了这些额外插件的许可。葱下图中可见，所有插件都是免费或已解锁的状态。
+* 如果要使用 MestReNova 中一开始默认未开启的插件，请前往 Advanced Plug-ins... 窗口中启用，然后重启软件。部分插件需要前往 [MestReNova 官网](https://mestrelab.com/main-product/mnova) 下载，然后按照指示进行安装。本补丁已包含了这些额外插件的许可。从下图中可见，所有插件都是免费或已解锁的状态。
 
-<p align="center"><img src="/mestrenova/4.png" height="50%" width="50%"></p>
+<p align="center"><img src="/mrn/4.png" height="50%" width="50%"></p>
 
 ## 运行效果图
-*<p align="center"><img src="/mestrenova/1.jpg" height="30%" width="30%">  <img src="/mestrenova/0.jpg" height="39%" width="39%"><br>左：Windows；右：Mac</p>*
+*<p align="center"><img src="/mrn/1.jpg" height="30%" width="30%">  <img src="/mrn/0.jpg" height="39%" width="39%"><br>左：Windows；右：Mac</p>*
