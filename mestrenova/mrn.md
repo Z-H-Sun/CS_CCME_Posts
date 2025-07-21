@@ -1,30 +1,35 @@
-# MestReNova 12.0.0~15.0.0 [Win/Mac/Ubuntu] [x86/x64] 通用补丁
+# MestReNova 12\~16 [Win/Mac/Ubuntu] [x86/x64] 通用补丁 + 全网最全插件许可
 **<p align="center">Z.-H. Sun 2020年3月15日</p>**
-**<p align="center">更新于 2024年4月16日</p>**
+**<p align="center">更新于 2025年7月20日</p>**
 
-目前MestReNova的Windows平台下已更新到15.0.0 ~~12.0.4~~，但网上只有14.0 ~~12.0.2~~破解，且只支持32位；Mac平台只有“史蒂芬周博客”的12.0.0破解，而且“Mnova Verify”插件的许可文件写得有问题；没有Linux平台的破解。
+目前MestReNova的Windows平台下已更新到16.0.0 ~~12.0.4~~，但网上只有14.0 ~~12.0.2~~破解，且只支持32位；Mac平台只有“史蒂芬周博客”的12.0.0破解，而且“Mnova Verify”插件的许可文件写得有问题；没有Linux平台的破解。现行破解版的插件许可不全面，有些插件无法运行。
 
-而本补丁是Windows、Mac、Ubuntu（新增） 32/64位、12.0.0~15.0.0 ~~12.0.4~~版本通用的，只需先下载安装官方程序，然后双击运行本补丁即可正常使用。补丁程序**源码**公开在该[仓库](https://github.com/Z-H-Sun/MRN-ADF_Patch)中。
+而本补丁是Windows、Mac、Ubuntu（新增） 32/64位、12.0.0~16.0.0 ~~12.0.4~~版本通用的，且包含了所有插件的许可，只需先下载安装官方程序，然后双击运行本补丁即可正常使用。补丁程序**源码**公开在该[仓库](https://github.com/Z-H-Sun/MRN-ADF_Patch)中。
 
 > [!note]
 > 中国大陆地区访问 MestReNova 官网会强制自动跳转到代理商页面（详见 [Issue 29](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/29)）。可以访问 <ins>[此页面](mnlink.md)</ins> 浏览最新版本软件的官方安装包链接。该页面每月刷新一次。
 
 ---
+**25/7/20 更新**：增加了大量新插件的许可支持，如Chemometrics、Screen 2D、DFT Predictor、Mnova Hub、MANIQ、USP-ID Plug-in等。
 **22/5/18 更新**：应[Issue #10](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/10)的请求，新增了`ElViS`、`MestrelabPredictor`、`BioHOS`、`StereoFitter`等插件的许可，修正了`IUPAC Name`插件的许可。
 
 ## 仅对 Mac 用户的附加说明 (2020/11/22)
 
+<details><summary>新版不再会有该问题。点此展开</summary>
+
 （原因详见[Issue #3](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/3)）
 
-* 对于 14.2.0 及以上版本，请使用[最新的补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.14/MRN_Crack_Mac)，其中解决了数字签名的问题从而**防止闪退**
+* 对于 14.2.0 及以上版本，请使用[最新的补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.20/MRN_Crack_Mac)，其中解决了数字签名的问题从而**防止闪退**
 * 如果你已经将系统更新至 MacOS 11，那么使用低版本的 MestReNova 会闪退，这是由于 NMR Predictor 插件对新系统不兼容的问题（系统库缺失），可采取以下两种办法 **之一**：
 
   * 更新至最新版本 14.2.0 并使用最新补丁程序 **（推荐）；或**
   * 暂时屏蔽 NMR Predictor，反正用处不是很大。最简单的方法是删除对应的许可文件（显示包内容 > Contents > MacOS > license > NMRPredict Desktop.lic），只要对应部分没有激活则相应的问题程序就不会运行
 
+</details>
+
 ## 使用方法
 * 下载、安装对应平台版本的[官方安装程序](http://mestrelab.com/download/mnova/)
-* 下载破解补丁文件至任意位置：[Windows](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.14/MestReNovaCrack.exe) / [Mac](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.14/MRN_Crack_Mac) / [Ubuntu](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.14/MRN_Crack_Ubuntu)
+* 下载破解补丁文件至任意位置：[Windows](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.20/MestReNovaCrack.exe) / [Mac](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.20/MRN_Crack_Mac) / [Ubuntu](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.20/MRN_Crack_Ubuntu)
 
 * Windows下：
 
@@ -43,7 +48,12 @@
 
   * 请首先配置`ruby`环境。使用`sudo apt-get install ruby-full`安装最新版ruby，或者对于non-sudoer用户可选择自行编译
   * 终端中运行`sudo ruby </path/to/>MRN_Crack_Ubuntu`，按y确认
-* 本补丁运行时已经包含了写入许可文件的步骤，因此运行结束后即可正常打开和运行MestReNova 12.0~15.0
+
+### 关于插件
+* 本补丁运行时已经包含了写入许可文件的步骤，因此补丁运行结束后即可正常打开和运行MestReNova 12.0~16.0
+* 如果要使用 MestReNova 中一开始默认未开启的插件，请前往 Advanced Plug-ins... 窗口中启用，然后重启软件。部分插件需要前往 [MestReNova 官网](https://mestrelab.com/main-product/mnova) 下载，然后按照指示进行安装。本补丁已包含了这些额外插件的许可。葱下图中可见，所有插件都是免费或已解锁的状态。
+
+<p align="center"><img src="/mestrenova/4.png" height="50%" width="50%"></p>
 
 ## 运行效果图
 *<p align="center"><img src="/mestrenova/1.jpg" height="30%" width="30%">  <img src="/mestrenova/0.jpg" height="39%" width="39%"><br>左：Windows；右：Mac</p>*

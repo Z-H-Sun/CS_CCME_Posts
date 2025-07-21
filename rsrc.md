@@ -3,7 +3,8 @@
 
 * ChemOffice & ChemDraw
 
-  * **[ChemOffice 20\~23 for Windows / ChemDraw 20\~23 for Mac 一键破解](/cos/cos20.md)**（更新）
+  * **[ChemDraw Applications 25 for Windows / Mac 一键破解](/cos/cos25.md)**（更新）
+  * [ChemOffice 20\~23 for Windows / ChemDraw 20\~23 for Mac 一键破解](/cos/cos20.md)
   * [ChemOffice (Win) 19.0 / 18.2 完美激活方法: 一键轻松解决](/cos/cow2.md)
   * [ChemDraw (Mac) 19 / 18 / 17 完全破解版](/cos/cdm2.md)
   * ~~[Mac 用户福音！ChemDraw 19/18 for Mac 无限试用](/cos/cdm.md)~~（已过时）
@@ -12,7 +13,7 @@
 
 * MestReNova
 
-  * [MestReNova 15/14/12.x \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁](/mestrenova/mrn.md)
+  * **[MestReNova 12\~16 \[Win/Mac/Ubuntu\] \[x86/x64\] 通用补丁 + 全网最全插件许可](/mestrenova/mrn.md)**（更新）
 
 * Gaussian & GaussView
 
@@ -27,4 +28,4 @@
 * Turbomole 7.1 \[Win/Linux\]
   * [Turbomole 7.1 \[Win/Linux\] DEMO破解版](/turbomole/tmolx.md)
 
-* **[Mathematica 10-14 注册机](/mma.md)**（更新）
+* [Mathematica 10-14 注册机](/mma.md)
