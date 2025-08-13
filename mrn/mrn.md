@@ -39,8 +39,12 @@
 
 * Mac下：
 
-  * 最好通过另一台Windows电脑下载程序安装包及补丁文件，U盘拷贝至此Mac电脑。安装结束后以“终端 (Terminal)”方式打开补丁文件，按y确认
-  * 具体操作，或过程中产生任何问题，请参见[一般操作流程及疑难解答](/MAC.md)。
+  * 先正常运行一遍 MestReNova，系统验证过后再进行后续破解步骤 **（非常重要！）**
+  * 确保 “**终端 (Terminal)**” 程序具有 “**完全磁盘访问 (Full Disk Access)**” 权限 **（非常重要！）**
+    * 进入 设置 (System Preferences) -> 隐私与安全性 (Security & Privacy) -> 完全磁盘访问权限 (Full Disk Access)，确认 终端 (Terminal) 在列表中，否则请单击 + 图标并添加、启用 实用工具 (Utilities) -> 终端 (Terminal)
+  * 通过 LauchPad 打开一个 “**终端 (Terminal)**” 窗口，输入 `ruby `，注意在字母y后**还有一个空格（非常重要！）**，然后将访达 (Finder) 中的补丁程序文件拖拽至终端窗口中（将会补全其路径），最后回车运行即可
+    * 或者也可直接输入 `ruby "<path/to>/MRN_Crack_Mac"`
+    * 如果出现错误，请确保“终端”拥有“完全磁盘访问权限”（见上条）；或者，可能是因为需要管理员权限，此时请运行 `sudo ruby "<path/to>/MRN_Crack_Mac"`
   * 以下情况有一定可能会发生：如果首次运行时，软件提示“Cache目录设置不正常，是否解决”，**请选择“是”并按照提示输入管理员账号密码即可**（否则会提示许可验证失败，代码0x8000000E）
 <p align="center"><img src="/mrn/2.jpg" height="80%" width="80%"></p>
 

@@ -114,24 +114,23 @@ $prc | remove-wmiobject
 ---
 
 ### Mac
-* **最好先在另一台Windows电脑上下载下述安装包和替换补丁，用U盘拷贝至此Mac电脑**
+* 先下载官方程序包`ChemDraw25.dmg`，然后双击打开，正常安装。
 
-  * 先下载官方程序包`ChemDraw25.dmg`，然后双击打开，正常安装。
+  * [Google Drive](https://drive.google.com/open?id=1GRwysPQhOYnrriZTKSRc05Mf_Q7xd5DC)
+  * [百度网盘](https://pan.baidu.com/s/1PDgXv4qrZHybyqf_niM2eA?pwd=csme)
+* 先正常运行一遍 ChemDraw，系统验证过后再进行后续破解步骤 **（非常重要！）**
+* 下载[补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.20/CDM_Crack)至任意位置
+  * 上面的网盘文件夹里也有这个文件 `CDM_Crack`，择一方式下载即可
+* 确保 “**终端 (Terminal)**” 程序具有 “**完全磁盘访问 (Full Disk Access)**” 权限 **（非常重要！）**
+  * 进入 设置 (System Preferences) -> 隐私与安全性 (Security & Privacy) -> 完全磁盘访问权限 (Full Disk Access)，确认 终端 (Terminal) 在列表中，否则请单击 + 图标并添加、启用 实用工具 (Utilities) -> 终端 (Terminal)
+* 通过 LauchPad 打开一个 “**终端 (Terminal)**” 窗口，输入 `ruby `，注意在字母y后**还有一个空格（非常重要！）**，然后将访达 (Finder) 中的补丁程序文件拖拽至终端窗口中（将会补全其路径），最后回车运行即可
+  * 或者也可直接输入 `ruby "<path/to>/CDM_Crack"`
+  * 如果出现错误，请确保“终端”拥有“完全磁盘访问权限”（见上条）；或者，可能是因为需要管理员权限，此时请运行 `sudo ruby "<path/to>/CDM_Crack"`
+* 程序会自动检测 Mac 上安装的所有17及以上版本的 ChemDraw（如下图所示）：
 
-    * [Google Drive](https://drive.google.com/open?id=1GRwysPQhOYnrriZTKSRc05Mf_Q7xd5DC)
-    * [百度网盘](https://pan.baidu.com/s/1PDgXv4qrZHybyqf_niM2eA?pwd=csme)
-  * 下载[补丁程序](https://github.com/Z-H-Sun/MRN-ADF_Patch/releases/download/v2.20/CDM_Crack)至任意位置，以“终端 (Terminal)”方式打开补丁文件
-
-    * 上面的网盘文件夹里也有这个文件 `CDM_Crack`，择一方式下载即可
-  * 详情/若发生错误：请见[一般操作流程及疑难解答](/MAC.md)
-
-    * 特别是需要先正常运行一遍 ChemDraw，系统验证过后再进行破解
-    * 如果出现错误，可能是因为需要管理员权限，请运行 `sudo ruby "<path/to>/CDM_Crack"`
-  * 程序会自动检测PC上安装的所有17及以上版本的 ChemDraw（如下图所示）：
-
-    * 对于未经破解的 ChemDraw 版本，程序将在用户按下<kbd>y</kbd>键后开始破解【Patch】
-    * 对于已打过补丁的 ChemDraw 版本，程序将在用户按下<kbd>y</kbd>键后将软件回复至初始（未破解）状态【Restore】
-    * 对于任一情况，若用户按下<kbd>n</kbd>键都将忽略这个版本
+  * 对于未经破解的 ChemDraw 版本，程序将在用户按下<kbd>y</kbd>键后开始破解【Patch】
+  * 对于已打过补丁的 ChemDraw 版本，程序将在用户按下<kbd>y</kbd>键后将软件回复至初始（未破解）状态【Restore】
+  * 对于任一情况，若用户按下<kbd>n</kbd>键都将忽略这个版本
 <p align="center"><img width="60%" height="60%" src="/cos/256.png"></p>
 
 > [!note]
