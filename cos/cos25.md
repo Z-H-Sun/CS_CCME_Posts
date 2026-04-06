@@ -134,7 +134,7 @@ $prc | remove-wmiobject
 <p align="center"><img width="60%" height="60%" src="/cos/256.png"></p>
 
 > [!note]
-> 对于 25 版及以上的 ChemDraw，请特别注意破解程序最后显示的额外信息（见上图）。如果你使用的是搭载 Intel 芯片的老 Mac 电脑，那么恭喜你，你可以忽略这一段话并直接开始正常使用 ChemDraw 25。如果你不幸正在用 M1/M2/M3/M4 芯片的新 Mac，那么请做以下步骤：
+> 对于 25 版及以上的 ChemDraw，请特别注意破解程序最后显示的额外信息（见上图）。如果你使用的是搭载 Intel 芯片的老 Mac 电脑，那么恭喜你，你可以忽略这一段话并直接开始正常使用 ChemDraw 25。如果你不幸正在用 M1/M2/M3/M4/M5 芯片的新 Mac，那么请做以下步骤：
 
 * 仅针对使用 Apple Silicon 芯片的新 Mac 用户（详见 [Issue #36](https://github.com/Z-H-Sun/CS_CCME_Posts/issues/36)）：
     * 请安装 Rosetta，并在 ChemDraw 应用程序上点右键，选择“显示简介”，然后在“通用”部分勾选“使用Rosetta 打开 (Open using Rosetta)”选项。**这样就可以了。**

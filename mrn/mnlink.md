@@ -1,6 +1,8 @@
 # MestReNova 最新官方安装包链接
 ## Windows
 
+* [17.0.0 版](https://www.mestrelab.com/downloads/mnova/win/msi/MestReNova-17.0.0-41178_x64.msi)
+* [17.0.0 版（仅为当前用户安装）](https://www.mestrelab.com/downloads/mnova/win/msi/MestReNova-17.0.0-41178_peruser_x64.msi)
 * [16.0.0 版](https://www.mestrelab.com/downloads/mnova/win/msi/MestReNova-16.0.0-39276_x64.msi)
 * [16.0.0 版（仅为当前用户安装）](https://www.mestrelab.com/downloads/mnova/win/msi/MestReNova-16.0.0-39276_peruser_x64.msi)
 * [15.1.0 版](https://www.mestrelab.com/downloads/mnova/win/msi/MestReNova-15.1.0-37919_x64.msi)
@@ -65,6 +67,7 @@
 
 ## Mac OS
 
+* [17.0.0 版](https://www.mestrelab.com/downloads/mnova/mac/MestReNova-17.0.0-41178.dmg)
 * [16.0.0 版](https://www.mestrelab.com/downloads/mnova/mac/MestReNova-16.0.0-39276.dmg)
 * [15.1.0 版](https://www.mestrelab.com/downloads/mnova/mac/MestReNova-15.1.0-37919.dmg)
 * [15.0.1 版](https://www.mestrelab.com/downloads/mnova/mac/MestReNova-15.0.1-35756.dmg)
@@ -136,6 +139,8 @@
 
 ## Ubuntu
 
+* [17.0.0 版（适用于 Ubuntu 24.04 版）](https://www.mestrelab.com/downloads/mnova/linux/Ubuntu/24.04/mestrenova_17.0.0-41178_amd64.deb)
+* [17.0.0 版（适用于 Ubuntu 22.04 版）](https://www.mestrelab.com/downloads/mnova/linux/Ubuntu/22.04/mestrenova_17.0.0-41178_amd64.deb)
 * [16.0.0 版（适用于 Ubuntu 24.04 版）](https://www.mestrelab.com/downloads/mnova/linux/Ubuntu/24.04/mestrenova_16.0.0-39276_amd64.deb)
 * [16.0.0 版（适用于 Ubuntu 22.04 版）](https://www.mestrelab.com/downloads/mnova/linux/Ubuntu/22.04/mestrenova_16.0.0-39276_amd64.deb)
 * [15.1.0 版（适用于 Ubuntu 24.04 版）](https://www.mestrelab.com/downloads/mnova/linux/Ubuntu/24.04/mestrenova_15.1.0-37919_amd64.deb)
