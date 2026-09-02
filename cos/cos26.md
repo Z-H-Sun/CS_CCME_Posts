@@ -12,7 +12,7 @@
 从 26 版本起，为缓解个人网盘压力，节省发布时间，将不再提供一键安装破解的懒人包。因此，请先在下方链接下载并正常执行官方安装程序，这样还有一个好处在于安全性也会更高（有可校验的官方数字签名背书）。Revvity 并未对官方安装程序的下载地址进行限制，普通人无需账号登录也可正常访问。
 
 ### Windows 版下载
-* [ChemDraw 26.0.0.6141](https://static.chemistry.revvitycloud.com/chemdraw/updates/ChemDraw_Applications_26.0.0.exe)
+* [ChemDraw 26.0.0.6141](https://static.chemistry.revvitycloud.com/chemdraw/updates/ChemDraw_26.0.0.exe)
 
   *SHA256: DB5F0C04E817C6A28B59F6EEC91D5A1B1B3700ADE851B4A42FCD435DF5746FAC*
 
